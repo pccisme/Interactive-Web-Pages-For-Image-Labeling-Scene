@@ -3,7 +3,8 @@
 	font-family: "Helvetica Neue", Helvetica;
 }
 h1 {
-	color: orange;
+	color: white;
+	background: orange;
 	text-align: center;
 }
 table {
@@ -22,7 +23,13 @@ li {
 	font-size: 1.2em;
 }
 p {
-	padding:;
+	font-size: 1.2em;
+}
+#true {
+	color: green;
+}
+#false {
+	color: red;
 }
 img {
 	display: block;
@@ -32,21 +39,25 @@ h2 {
 	padding: 0 0 0 10px;
 }
 #instructions {
-	border: 1px solid grey;
+	/*border: 1px solid grey;*/
 	margin: 10px 0 20px 0;
 	padding: 0 5px 0 5px;
-}
-#canditate_img {
-
 }
 #submitButton {
 	text-align: center;
 }
 #example_yes {
-	border: 2px lightgreen solid;
+	border: 2px green solid;
 	width: 25%;
 }
 #example_no {
 	border: 2px red solid;
 	width: 25%;
+}
+.comment_input {
+	display: block;
+	/*margin: 0px auto;*/
+	font-size: 18px;
+	width: 400px;
+	height: 50px;
 }
