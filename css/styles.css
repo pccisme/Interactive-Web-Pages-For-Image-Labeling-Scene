@@ -10,9 +10,10 @@ h1 {
 table {
 	/*border: 2px solid black;*/
 	width: 100%;
+	margin: 0px;
 	table-layout: auto;
 	/*margin:;*/
-	padding: 0px;
+	padding: 10px;
 }
 td {
 	border: 2px solid black;

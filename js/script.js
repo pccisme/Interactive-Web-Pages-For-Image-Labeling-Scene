@@ -9,7 +9,7 @@ form.onsubmit = function(e) {
 		var isChecked = checks[pos].checked == true;
 		if (isChecked) {
 			checkRes = checks[pos].value;
-			console.log("Result: " + checkRes);			
+			console.log(checkRes);			
 		}
 		else {
 			count ++;
@@ -17,7 +17,6 @@ form.onsubmit = function(e) {
 	}
 
 	if (count === num_checks) {
-		console.log("An user submitted but did not select any image.");
 		alert("You DID NOT select any image!");
 	}
 	else {
