@@ -17,7 +17,7 @@ form.onsubmit = function(e) {
 	}
 
 	if (count === num_checks) {
-		console.log("User submitted the HIT but did not select any image.");
+		console.log("An user submitted but did not select any image.");
 		alert("You DID NOT select any image!");
 	}
 	else {
