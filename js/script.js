@@ -1,7 +1,7 @@
 form.onsubmit = function(e) {
 	e.preventDefault();
 
-	var checks = form.elements["checkBox"];
+	var checks = form.elements["radioButton"];
 	var num_checks = checks.length;
 	var count = 0;
 
@@ -9,7 +9,7 @@ form.onsubmit = function(e) {
 		var isChecked = checks[pos].checked == true;
 		if (isChecked) {
 			checkRes = checks[pos].value;
-			console.log(checkRes);			
+			console.log("Result: " + checkRes);			
 		}
 		else {
 			count ++;
